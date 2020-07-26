@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  outline: none;
+}
+
+.codegit {
+  padding: 0 50px;
+}
+
+p,
+div {
+  font-weight: 500;
+}
+
+h1,
+h2 {
+  margin: 10px auto;
+  padding: 10px 0;
+  border-bottom: 1.5px solid rgb(197, 197, 197);
+}
+
+h3,
+h4 {
+  margin: 5px auto;
+  padding: 5px 0;
+  border-bottom: 0.5px solid rgb(197, 197, 197);
+}
+
+code {
+  padding: 4px 8px;
+  color: black;
+  background: #fffae0;
+  border-radius: 4px;
+  font-family: "Cascadia Code", monospace !important;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+li {
+  margin: 5px 0px;
+  line-height: 160%;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+pre > code {
+  padding: none;
+  background: none;
+  /* color: black; */
+  color: inherit;
+  border: none;
+  padding: 0px !important;
+}
+
+pre {
+  margin: 10px;
+  background: #f8f8ff;
+  padding: 10px !important;
+  border-radius: 5px;
+  overflow: auto;
+}
